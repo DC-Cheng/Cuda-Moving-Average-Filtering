@@ -1,4 +1,4 @@
-//Status: Can't Build error, stay in psuedo code.
+//Status: Can't run error, stay in psuedo code.
 //=================================================
 //Date: 2020-05-29
 //Author: DC.Cheng
