@@ -5,11 +5,11 @@
 
 # Introduction #
 CUDA (Compute Unified Device Architecture) is a parallel computing platform and application programming interface (API) model created by Nvidia.
-<img src="https://en.wikipedia.org/wiki/File:Nvidia_CUDA_Logo.jpg" alt="Open3D" class="center" width="400">
+<img src="https://en.wikipedia.org/wiki/File:Nvidia_CUDA_Logo.jpg" alt="CUDA" class="center" width="400">
 
 # Implementation #
-CUDA-MovingAverageFiltering.cu                //finished, author: Kotlab
-CUDA-MovingAverageFiltering_MultiDimension.cu //processing, 
+CUDA-MovingAverageFiltering.cu                //finished, author: Kotlab <br>
+CUDA-MovingAverageFiltering_MultiDimension.cu //processing, <br>
 
 # Future Point #
 1. implementation of CUDA processing in 1D structure feed.
