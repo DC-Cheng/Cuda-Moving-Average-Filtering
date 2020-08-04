@@ -1,17 +1,15 @@
-//Status: Can't run error, stay in psuedo code.
-//=================================================
-//Date: 2020-05-29
-//Author: DC.Cheng
+/**********************************************************
+Name:	algorithm_CUDA_impl
+Date:	20200529
+Author: DC.Cheng
+Note:	psuedo code release
+Brief:	1. MovingAverageFiltering in CUDA in 2D / 3D
+	2. psuedo code in gridSize in 3D 2D blockSize in 2D
+Reference: 
+	1. https://stackoverflow.com/questions/22577857/3d-convolution-with-cuda-using-shared-memory
+	2. https://cs.calvin.edu/courses/cs/374/CUDA/CUDA-Thread-Indexing-Cheatsheet.pdf
+**********************************************************/
 
-//Brief:
-//MovingAverageFiltering in CUDA in 2D / 3D
-//psuedo code in gridSize in 3D 2D blockSize in 2D
-
-//Ref:
-//https://stackoverflow.com/questions/22577857/3d-convolution-with-cuda-using-shared-memory
-//https://cs.calvin.edu/courses/cs/374/CUDA/CUDA-Thread-Indexing-Cheatsheet.pdf
-
-//psuedo code
 #include <cuda_runtime.h>
 #include <stdio.h>
 #include <iostream>
